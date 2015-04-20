@@ -1,10 +1,65 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #e0e0e0;
+    padding-top: 70px;
 }
 
-.header-image {
-    width: 90px;
-    height: auto;
+.a2545s {
+    color: #ffae00;
 }
+
+.header-bar {
+    font-size: 150%;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.col-md-8 {
+    background-color: #DFE2DB;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.col-md-4 {
+    background-color: #DFE2DB;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.links-title {
+    color: #ffae00;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.ruler {
+    color: #000;
+    background-color: #000;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+.fotorama-img {
+    border: 1px solid #;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.fotorama__caption {
+    color: #000;
+}
+
+.fotorama__caption__wrap{
+    background-color: #DFE2DB;
+}
+
+.subtitle{
+    color:#000;
+}
+

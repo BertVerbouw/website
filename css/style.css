@@ -1,7 +1,13 @@
 body {
     width: 100%;
     height: 100%;
-    padding-top: 70px;
+    padding-top: 60px;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    color: #777;
+    background-color: #AEBC21;
+    border-radius: 10px;
 }
 
 .a2545s {
@@ -14,26 +20,10 @@ body {
     margin-right: 20px;
 }
 
-.col-md-8 {
-    background-color: #DFE2DB;
-    background-clip: padding-box;
-    border: 5px solid transparent;
-    border-radius: 15px;
-    padding: 5px;
-}
-
-.col-md-4 {
-    background-color: #DFE2DB;
-    background-clip: padding-box;
-    border: 5px solid transparent;
-    border-radius: 15px;
-    padding: 5px;
-}
-
 .links-title {
     color: #ffae00;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: -20px;
 }
 
@@ -56,10 +46,101 @@ body {
 }
 
 .fotorama__caption__wrap{
-    background-color: #DFE2DB;
+    background-color: #AEBC21;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .subtitle{
     color:#000;
 }
 
+.pdf-viewer{
+    margin-top:50px;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+.leidingsploeg{
+    position:absolute;
+    top:12px;
+    bottom:-20px;
+    left:0px;
+    right:0px;
+    background-image:url(../images/wieiswie2014-2015.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.page-element{
+    background-color: #DFE2DB;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: hidden;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.text-image{
+    border-radius: 10px;
+    padding-right: 5px;
+    float: left;
+}
+
+.text-paragraph{
+    background-color: #AEBC21;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align:justify;
+}
+
+.lied{
+    text-align:center;
+}
+
+
+@media (max-width: 1130px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
